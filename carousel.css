@@ -1,0 +1,92 @@
+.super-scrolling-carousel {
+    position: relative;
+    width:700px;
+}
+.super-scrolling-carousel .super-scrolling-carousel-wrapper {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 700px;
+    -webkit-overflow-scrolling: touch;
+}
+.super-scrolling-carousel .super-scrolling-carousel-wrapper::-webkit-scrollbar { 
+    display: none; 
+}
+
+.super-scrolling-carousel .super-scrolling-carousel-wrapper {
+    padding: 5px 0;
+}
+
+.super-scrolling-carousel .super-scrolling-carousel-wrapper a {
+    display: inline-block;
+    /* notice the comments between inline-block items */
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 5px #000;
+    text-align: center;
+}
+
+.control-right,
+.control-left {
+    width: 36px;
+    height: 36px;
+    color:#757575;
+    margin-bottom: auto;
+    margin-top:auto;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index:2;
+    opacity: 0.94;
+
+}
+.control-right {
+    right:-18px;
+}
+.control-left {
+    left:-18px;
+}
+
+.control-right.show :hover,
+.control-left.show :hover{
+    opacity: 0.98;
+}
+.control-right svg,
+.control-left svg{
+    position: absolute;
+    left: 0;right: 0;bottom: 0;top: 0;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    fill: #757575;
+}
+.control-right.show:hover svg,
+.control-left.show:hover svg{
+    fill: #000;
+}
+@media (pointer: coarse) {
+    .control-right,
+    .control-left {
+    display: none !important;
+    }
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+
+.show {
+  transition: opacity 400ms;
+}
+.hide {
+  opacity: 0;
+}
