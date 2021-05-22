@@ -6,7 +6,8 @@ function outerWidth(el) {
     return width;
 }
 
-function supercurl(node, options) {
+
+function superScrollingCarousel(node, options) {
             var defaults = {
                 scrolling: true,
                 amount: false // Experimental! Needs work
@@ -175,5 +176,3 @@ function supercurl(node, options) {
                 });
             }
         }
-
-exports.supercurl = supercurl;
