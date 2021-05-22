@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kaustubh03/supercurl.git"
+    "url": "git+https://github.com/kaustubh03/supercurl.git"
   },
   "keywords": [
     "supercurl",
