@@ -176,4 +176,4 @@ function supercurl(node, options) {
             }
         }
 
-exports.supercurl = supercurl;
+exports.supscroll = supscroll;
