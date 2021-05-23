@@ -1,22 +1,22 @@
-.supercurl {
+.supscroll {
     position: relative;
     width:700px;
 }
-.supercurl .supercurl-wrapper {
+.supscroll .supscroll-wrapper {
     overflow-x: scroll;
     white-space: nowrap;
     width: 700px;
     -webkit-overflow-scrolling: touch;
 }
-.supercurl .supercurl-wrapper::-webkit-scrollbar { 
+.supscroll .supscroll-wrapper::-webkit-scrollbar { 
     display: none; 
 }
 
-.supercurl .supercurl-wrapper {
+.supscroll .supscroll-wrapper {
     padding: 5px 0;
 }
 
-.supercurl .supercurl-wrapper a {
+.supscroll .supscroll-wrapper a {
     display: inline-block;
     /* notice the comments between inline-block items */
     margin-right: 10px;
