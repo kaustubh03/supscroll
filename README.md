@@ -1,4 +1,4 @@
-# SuperCurl - Library for Scrolling Carousel
+# SupScroll - Library for Scrolling Carousel
 
 ##### Now implement scrolling carousel on your frontend apps quickly.
 
