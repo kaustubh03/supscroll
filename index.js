@@ -6,7 +6,7 @@ function outerWidth(el) {
     return width;
 }
 
-function supercurl(node, options) {
+function supscroll(node, options) {
             var defaults = {
                 scrolling: true,
                 amount: false // Experimental! Needs work
