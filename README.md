@@ -2,7 +2,7 @@
 
 ##### Now implement scrolling carousel on your frontend apps quickly.
 
-###### Current Version - v1.0.4
+###### Current Version - v1.0.6
 
 # Usage
 This can be used in 2 ways
