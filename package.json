@@ -1,6 +1,6 @@
 {
   "name": "supscroll",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Library to enable scrolling carousel functionality like Google Top Stories.",
   "main": "index.js",
   "scripts": {
