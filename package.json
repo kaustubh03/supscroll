@@ -1,5 +1,5 @@
 {
-  "name": "supercurl",
+  "name": "supscroll",
   "version": "1.0.0",
   "description": "Library to enable scrolling carousel functionality like Google Top Stories.",
   "main": "index.js",
@@ -8,28 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaustubh03/supercurl.git"
+    "url": "git+https://github.com/kaustubh03/supscroll.git"
   },
   "keywords": [
-    "supercurl",
-    "super-scrolling",
-    "carousel",
-    "carousel",
-    "scrolling-carousel",
-    "google",
-    "top",
-    "stories",
-    "facebook",
-    "top",
-    "stories"
+    "\"supercurl\""
   ],
-  "author": "Kaustubh Saxena",
+  "author": "\"super-scrolling\",",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaustubh03/supercurl/issues"
+    "url": "https://github.com/kaustubh03/supscroll/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/xassuak"
-  },
-  "homepage": "https://github.com/kaustubh03/supercurl#readme"
+  "homepage": "https://github.com/kaustubh03/supscroll#readme"
 }
