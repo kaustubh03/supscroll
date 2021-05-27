@@ -54,7 +54,5 @@ This can be used in 2 ways
     </div>
     ```
 Note - For React this would be JSX and similar suited variations for other FE Frameworks 
-<<<<<<< HEAD
 Styles can be overrided using external in-app stylesheets
-=======
->>>>>>> 5f744c4d0d69fc97c31502b1b1c1a1bc27444b23
+
